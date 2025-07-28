@@ -37,11 +37,25 @@ export default function Home() {
           Be first to try Nudge when we launch. You’ll also get one month of Pro for free.
         </p>
 
-        <Link href="https://tally.so/r/nudge-waitlist" passHref>
-          <button style={{ padding: '1rem', background: '#000', color: '#fff', border: 'none', cursor: 'pointer', marginTop: '1rem' }}>
-            👉 Join the Waitlist
-          </button>
-        </Link>
+        <a
+  href="https://tally.so/r/wAe4We"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    padding: '1rem',
+    background: '#000',
+    color: '#fff',
+    border: 'none',
+    cursor: 'pointer',
+    marginTop: '1rem',
+    display: 'inline-block',
+    borderRadius: '6px',
+    textDecoration: 'none',
+    fontWeight: 'bold'
+  }}
+>
+  👉 Join the Waiting List
+</a>
       </main>
 
       <footer style={{ textAlign: 'center', marginTop: '3rem', fontSize: '0.9rem', color: '#777' }}>
